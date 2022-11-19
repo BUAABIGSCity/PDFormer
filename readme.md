@@ -4,7 +4,7 @@ This is a PyTorch implementation of Propagation Delay-aware Dynamic Long-range T
 
 > \* Equal Contributions.
 
-![framework](./framework.png)
+<img src="./framework.png" width="75%">
 
 ## Requirements
 
@@ -43,7 +43,7 @@ python run_model.py --task traffic_state_pred --model PDFormer --dataset PeMS08 
 
 ## Contributors
 
-[![img](https://avatars.githubusercontent.com/u/59010369?v=4)](https://github.com/NickHan-cs) [![img](https://avatars.githubusercontent.com/u/35984903?v=4)](https://github.com/aptx1231)
+<a href="https://github.com/NickHan-cs"><img src="https://avatars.githubusercontent.com/u/59010369?v=4" width=98px></img></a> <a href="https://github.com/aptx1231"><img src="https://avatars.githubusercontent.com/u/35984903?v=4" width=98px></img></a>
 
 ## Reference Code
 
