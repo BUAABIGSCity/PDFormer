@@ -1,0 +1,12 @@
+/.vscode
+/visualized_data/*
+/libcity/tmp/*
+/libcity/__pycache__
+/libcity/*/__pycache__
+/libcity/data/dataset/__pycache__
+/.idea
+/libcity/log/*
+/libcity/model/*/__pycache__
+/libcity/data/dataset/*/__pycache__
+/libcity/cache/model_cache/*
+/libcity/cache/evaluate_cache/*
