@@ -47,7 +47,7 @@ python run_model.py --task traffic_state_pred --model PDFormer --dataset PeMS08 
 
 ## Reference Code
 
-The code references several open source repositories, to whom thanks are expressed here, including [LibCity](https://github.com/LibCity/Bigscity-LibCity).
+Code based on [LibCity](https://github.com/LibCity/Bigscity-LibCity) framework development, an open source library for traffic prediction.
 
 ## Cite
 
@@ -56,10 +56,30 @@ If you find the paper useful, please cite as following:
 ```
 @inproceedings{pdformer,
   title={PDFormer: Propagation Delay-aware Dynamic Long-range Transformer for Traffic Flow Prediction},
-  author={Jiawei Jiang and Chengkai Han and Wayne Xin Zhao and Jingyuan Wang},
+  author={Jiawei Jiang and 
+  		  Chengkai Han and 
+  		  Wayne Xin Zhao and 
+  		  Jingyuan Wang},
   booktitle = {{AAAI}},
   publisher = {{AAAI} Press},
   year      = {2023}
+}
+```
+
+If you find [LibCity](https://github.com/LibCity/Bigscity-LibCity) useful, please cite as following:
+
+```
+@inproceedings{libcity,
+  author    = {Jingyuan Wang and
+               Jiawei Jiang and
+               Wenjun Jiang and
+               Chao Li and
+               Wayne Xin Zhao},
+  title     = {LibCity: An Open Library for Traffic Prediction},
+  booktitle = {{SIGSPATIAL/GIS}},
+  pages     = {145--148},
+  publisher = {{ACM}},
+  year      = {2021}
 }
 ```
 
