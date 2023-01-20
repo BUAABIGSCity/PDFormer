@@ -4,6 +4,13 @@ This is a PyTorch implementation of Propagation Delay-aware Dynamic Long-range T
 
 > \* Equal Contributions.
 
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pdformer-propagation-delay-aware-dynamic-long/traffic-prediction-on-pemsd4)](https://paperswithcode.com/sota/traffic-prediction-on-pemsd4?p=pdformer-propagation-delay-aware-dynamic-long) 
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pdformer-propagation-delay-aware-dynamic-long/traffic-prediction-on-pemsd7)](https://paperswithcode.com/sota/traffic-prediction-on-pemsd7?p=pdformer-propagation-delay-aware-dynamic-long) 
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pdformer-propagation-delay-aware-dynamic-long/traffic-prediction-on-pemsd8)](https://paperswithcode.com/sota/traffic-prediction-on-pemsd8?p=pdformer-propagation-delay-aware-dynamic-long) 
+
 <img src="./framework.png" width="75%">
 
 ## Requirements
