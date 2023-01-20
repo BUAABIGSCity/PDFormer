@@ -1,6 +1,6 @@
 # [AAAI2023] PDFormer: Propagation Delay-aware Dynamic Long-range Transformer for Traffic Flow Prediction
 
-This is a PyTorch implementation of Propagation Delay-aware Dynamic Long-range Transformer for Traffic Flow Prediction (**PDFormer**) for traffic flow prediction, as described in our paper: [Jiawei Jiang](https://github.com/aptx1231)\*, [Chengkai Han](https://github.com/NickHan-cs)\*, Wayne Xin Zhao, Xiaohan Jiang, JingyuanWang,  **[Propagation Delay-aware Dynamic Long-range Transformer for Traffic Flow Prediction]()**, AAAI2023.
+This is a PyTorch implementation of Propagation Delay-aware Dynamic Long-range Transformer for Traffic Flow Prediction (**PDFormer**) for traffic flow prediction, as described in our paper: [Jiawei Jiang](https://github.com/aptx1231)\*, [Chengkai Han](https://github.com/NickHan-cs)\*, Wayne Xin Zhao, Xiaohan Jiang, JingyuanWang,  **[Propagation Delay-aware Dynamic Long-range Transformer for Traffic Flow Prediction](https://arxiv.org/abs/2301.07945)**, AAAI2023.
 
 > \* Equal Contributions.
 
