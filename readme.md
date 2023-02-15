@@ -37,9 +37,9 @@ You can train and test **PDFormer** through the following commands for 6 dataset
 python run_model.py --task traffic_state_pred --model PDFormer --dataset PeMS04 --config_file PeMS04
 python run_model.py --task traffic_state_pred --model PDFormer --dataset PeMS08 --config_file PeMS08
 python run_model.py --task traffic_state_pred --model PDFormer --dataset PeMS07 --config_file PeMS07
-python run_model.py --task traffic_state_pred --model PDFormer --dataset NYCTaxi --config_file NYCTaxi
-python run_model.py --task traffic_state_pred --model PDFormer --dataset CHIBike --config_file CHIBike
-python run_model.py --task traffic_state_pred --model PDFormer --dataset T-Drive --config_file T-Drive
+python run_model.py --task traffic_state_pred --model PDFormer --dataset NYCTaxi --config_file NYCTaxi --evaluator TrafficStateGridEvaluator
+python run_model.py --task traffic_state_pred --model PDFormer --dataset CHIBike --config_file CHIBike --evaluator TrafficStateGridEvaluator
+python run_model.py --task traffic_state_pred --model PDFormer --dataset T-Drive --config_file T-Drive --evaluator TrafficStateGridEvaluator
 ```
 
 If you have trained a model as above and only want to test it, you can set it as follows (taking PeMS08 as an example, assuming the experiment ID during training is $ID):
