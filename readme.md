@@ -31,7 +31,7 @@ Note that our model would calculate a **DTW matrix** and a **traffic pattern set
 
 ## Train & Test
 
-You can train and test **PDFormer** through the following commands for 6 datasets.
+You can train and test **PDFormer** through the following commands for 6 datasets. Parameter configuration (**--config_file**) reads the JSON file in the root directory. If you need to modify the parameter configuration of the model, please modify the corresponding **JSON** file.
 
 ```shell
 python run_model.py --task traffic_state_pred --model PDFormer --dataset PeMS04 --config_file PeMS04
@@ -47,6 +47,8 @@ If you have trained a model as above and only want to test it, you can set it as
 ```shell
 python run_model.py --task traffic_state_pred --model PDFormer --dataset PeMS08 --config_file PeMS08 --train false --exp_id $ID
 ```
+
+**Note**: By default the result recorded in the experiment log is the average of the first n steps. This is consistent with the paper (configured as **"mode": "average"** in the JSON file). If you need to get the results of each step separately, please modify the configuration of the JSON file to **"mode": "single"**.
 
 ## Contributors
 
